@@ -2,7 +2,7 @@ const lokalAdsData = [
   {
     lokalAdsID: 1,
     shopID: 1,
-    name: "ad 1",
+    name: "We are hiring ad",
     start_date: "2023-02-15",
     end_date: "2023-02-15",
     approved_at: "2023-02-13",
@@ -14,7 +14,7 @@ const lokalAdsData = [
   {
     lokalAdsID: 2,
     shopID: 1,
-    name: "ad 2",
+    name: "Welcome to Lokal 360",
     start_date: "2023-02-15",
     end_date: "2023-02-15",
     approved_at: "N/A",
@@ -26,7 +26,7 @@ const lokalAdsData = [
   {
     lokalAdsID: 3,
     shopID: 1,
-    name: "ad 3",
+    name: "Promote your shop ad",
     start_date: "2023-02-15",
     end_date: "2023-02-15",
     approved_at: "2023-02-12",
@@ -38,7 +38,7 @@ const lokalAdsData = [
   {
     lokalAdsID: 4,
     shopID: 1,
-    name: "ad 4",
+    name: "Bamboo Land Sale",
     start_date: "2023-02-15",
     end_date: "2023-02-15",
     approved_at: "N/A",
@@ -50,7 +50,7 @@ const lokalAdsData = [
   {
     lokalAdsID: 5,
     shopID: 1,
-    name: "ad 5",
+    name: "Mid Year Sale",
     start_date: "2023-02-15",
     end_date: "2023-02-15",
     approved_at: "2023-02-12",
@@ -62,7 +62,7 @@ const lokalAdsData = [
   {
     lokalAdsID: 6,
     shopID: 1,
-    name: "ad 6",
+    name: "20% off Selected Items",
     start_date: "2023-02-15",
     end_date: "2023-02-15",
     approved_at: "2023-02-13",
@@ -74,7 +74,7 @@ const lokalAdsData = [
   {
     lokalAdsID: 7,
     shopID: 1,
-    name: "ad 7",
+    name: "6.6 Sale Items",
     start_date: "2023-02-15",
     end_date: "2023-02-15",
     approved_at: "2023-02-12",
@@ -86,7 +86,7 @@ const lokalAdsData = [
   {
     lokalAdsID: 8,
     shopID: 1,
-    name: "ad 8",
+    name: "Follow our Page",
     start_date: "2023-02-15",
     end_date: "2023-02-15",
     approved_at: "2023-02-12",
@@ -98,7 +98,7 @@ const lokalAdsData = [
   {
     lokalAdsID: 9,
     shopID: 1,
-    name: "ad 9",
+    name: "Visitt our Shop",
     start_date: "2023-02-15",
     end_date: "2023-02-15",
     approved_at: "2023-02-12",

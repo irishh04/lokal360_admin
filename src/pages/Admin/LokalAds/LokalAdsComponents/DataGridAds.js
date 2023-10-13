@@ -43,8 +43,8 @@ const columns = [
   },
   {
     field: "name",
-    headerName: "Ad Name",
-    width: 160,
+    headerName: "Name",
+    width: 180,
     filterable: true,
   },
   {
@@ -62,25 +62,20 @@ const columns = [
   },
   {
     field: "type",
-    headerName: "Type",
+    headerName: "Shop Name",
     filterable: true,
     width: 140,
   },
-  {
-    field: "approved_at",
-    headerName: "Approved At",
-    filterable: false,
-    width: 140,
-  },
+  
   {
     field: "start_date",
-    headerName: "Ad Start Date",
+    headerName: "Campaign Start",
     filterable: false,
     width: 140,
   },
   {
     field: "end_date",
-    headerName: "Ad End Date",
+    headerName: "Campaign End",
     filterable: false,
     width: 140,
   },

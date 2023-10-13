@@ -12,6 +12,8 @@ function CustomerStatus({ status }) {
       setColorType("warning");
     } else if (status === "Employee") {
       setColorType("danger");
+    } else if (status === "N/A") {
+      setColorType("primary");
     } else {
       setColorType("text");
     }

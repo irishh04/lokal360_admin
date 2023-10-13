@@ -1,24 +1,26 @@
 import React from "react";
-import PageInfoComponent from "../../../components/PageInfoAndTime/PageInfoComponent";
 import { Box } from "@mui/material";
+import PageInfoComponent from "../../../components/PageInfoAndTime/PageInfoComponent";
 import theme from "../../../Theme";
-import MyEmployees from "./EmployeeMgmtComponents/MyEmployees";
+import MyPromos from "./PromosShopComponents/MyPromos";
 
 function CategoryContent() {
   return (
     <Box sx={{ ...theme.components.box.pageContainer }}>
       <PageInfoComponent
         PageName={"Categories"}
-        Subtitle={"View and ManageLokal 360's Categories"}
+        Subtitle={
+          "View and Manage Lokal 360's Categories"
+        }
       />
 
       {/*Main Content*/}
       <Box sx={{ ...theme.components.box.mainContent }}>
         {/*(Left Side)*/}
         <Box sx={{ ...classes.leftContainer }}>
-          {/*My Employees*/}
-          <Box sx={{ ...classes.employeesContainer }}>
-            <MyEmployees />
+          {/*My Customers*/}
+          <Box sx={{ ...classes.customerContainer }}>
+            <MyPromos />
           </Box>
         </Box>
       </Box>
@@ -36,7 +38,7 @@ const classes = {
     },
   },
 
-  employeesContainer: {
+  customerContainer: {
     ...theme.components.box.sectionContainer,
     minWidth: "600px",
     order: 1,

@@ -101,7 +101,7 @@ function  DataGridCustomers() {
       {
         field: "status",
         headerName: "Report Status",
-        width: 125,
+        width: 170,
         renderCell: (params) => {
           const status = params.value;
           let statusComponent;
@@ -118,34 +118,11 @@ function  DataGridCustomers() {
           return statusComponent;
         },
       },
-    
-
-    {
-      field: "username",
-      headerName: "Name",
-      width: 160,
+      {
+        field: "type_list",
+        headerName: "Type",
+        width: 180,
       },
-   
-    {
-      field: "status",
-      headerName: "Report Status",
-      width: 120,
-      renderCell: (params) => {
-        const status = params.value;
-        let statusComponent;
-        if (
-          status === "Follower" ||
-          status === "Reported" ||
-          status === "Banned"
-        ) {
-          statusComponent = <CustomerStatus status={status} />;
-        } else {
-          statusComponent = <CustomerStatus status={"N/A"} />;
-        }
-
-        return statusComponent;
-      },
-    },
     {
       field: "",
       headerName: "Action",

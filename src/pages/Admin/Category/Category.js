@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
-import CategoryContent from "./CategoryContent";
 import AdminSidebar from "../../../components/Sidebar/AdminSidebar";
+import CategoryContent from "./CategoryContent";
 
 function Category() {
-  //Set Document Title
+  //Set Page Title
   useEffect(() => {
-    document.title = "Category | Lokal 360";
+    document.title = "Categories | Lokal 360";
     return () => {
       document.title = "Lokal 360";
     };

@@ -81,7 +81,7 @@ const LoginForm = () => {
     <Container
       sx={{
         bgcolor: "#ffffff",
-        height: 700,
+        height: 565,
         p: 1,
       }}
     >

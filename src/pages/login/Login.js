@@ -26,13 +26,12 @@ const Login = () => {
 
       <Grid
         container
-        spacing={0}
+        spacing={1}
         direction="column"
         alignItems="center"
         justifyContent="center"
         sx={{
-          height: "100%",
-          pt: 5,
+          height: "80%",
           display: "flex",
         }}
       >
@@ -42,7 +41,7 @@ const Login = () => {
         >
           <img
             src={require("../../assets/login_web.png")}
-            style={{ width: 750, height: 600 }}
+            style={{ width: 590, height: 430 }}
             alt="Logo"
           />
         </Grid>

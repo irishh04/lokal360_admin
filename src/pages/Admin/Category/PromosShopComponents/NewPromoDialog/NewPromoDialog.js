@@ -14,7 +14,7 @@ import ButtonCloseDialog from "../../../../../components/Buttons/ButtonCloseDial
 import { useForm } from "react-hook-form";
 import { useMediaQuery } from "@mui/material";
 
-function AddEmployeeDialog({ open, handleClose, handleSave }) {
+function NewPromoDialog({ open, handleClose, handleSave }) {
   const isSmScreen = useMediaQuery((theme) => theme.breakpoints.down("sm"));
   //for react hook form
   const {
@@ -43,10 +43,13 @@ function AddEmployeeDialog({ open, handleClose, handleSave }) {
         sx={{ backgroundColor: "#ECECEC80" }}
       >
         <form onSubmit={handleSubmit(onSubmit)}>
-          <DialogTitle sx={{ ...theme.components.dialog.dialogTitle }}>
+          <DialogTitle
+            minHeight={70}
+            sx={{ ...theme.components.dialog.dialogTitle }}
+          >
             <Box sx={{ ...theme.components.dialog.dialogTitleContent }}>
               {/* Dialog Title*/}
-              <Typography variant="sectionTitle">Add New Employee</Typography>
+              <Typography variant="sectionTitle">Create New Promo</Typography>
 
               {/*  Buttons */}
               <DialogActions sx={{ gap: "16px" }}>
@@ -80,4 +83,4 @@ function AddEmployeeDialog({ open, handleClose, handleSave }) {
   );
 }
 
-export default AddEmployeeDialog;
+export default NewPromoDialog;
