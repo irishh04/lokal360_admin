@@ -28,7 +28,7 @@ function StatisticsBoxes() {
 
 const classes = {
   main: {
-    maxWidth: "1120px",
+    maxWidth: "1400px",
     ...theme.components.box.mainContent,
     "@media (max-width: 1516px)": {
       alignItems: "center",
