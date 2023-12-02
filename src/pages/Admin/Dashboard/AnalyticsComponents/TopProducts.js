@@ -5,6 +5,8 @@ import CustomLink from "../../../../components/CustomLink";
 import ProductContainer from "../../../../components/ShopOnly/ProductContainer";
 import productData from "../../../../data/productData";
 import MapData from "../../../../utils/MapData";
+import styles from "../../../../css/Styles.module.css";
+import CustomLink from "../../../../components/CustomLink";
 
 function TopProducts({ hideShowAll }) {
   return (

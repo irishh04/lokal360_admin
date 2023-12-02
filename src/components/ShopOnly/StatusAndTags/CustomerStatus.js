@@ -7,11 +7,11 @@ function CustomerStatus({ status }) {
 
   useEffect(() => {
     if (status === "Shopper") {
-      setColorType("primary");
+      setColorType("success");
     } else if (status === "Merchant") {
-      setColorType("warning");
-    } else if (status === "Employee") {
       setColorType("danger");
+    } else if (status === "Employee") {
+      setColorType("warning");
     } else if (status === "N/A") {
       setColorType("primary");
     } else {
@@ -20,16 +20,18 @@ function CustomerStatus({ status }) {
   }, [status]);
 
   const color = colorType ? theme.palette[colorType].main : "inherit";
+  const bgColor = color + "40"
+
   return (
     <Box
       sx={{
         minWidth: 100,
         p: 0.5,
-        backgroundColor: color,
+        backgroundColor: bgColor,
         borderRadius: 5,
       }}
     >
-      <Typography variant="status" color="#fff">
+      <Typography variant="status" color={color}>
         {status}
       </Typography>
     </Box>

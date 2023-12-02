@@ -18,7 +18,7 @@ const Login = () => {
       disableGutters
       maxWidth="100%"
       sx={{
-        height: "100vh",
+        height: "0vh",
         background: "linear-gradient(to right bottom, #E4E1F9, #ACA4EC)",
       }}
     >
